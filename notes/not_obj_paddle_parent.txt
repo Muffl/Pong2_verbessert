@@ -1,0 +1,4 @@
+Bei der Kollision des obj_ball mit dem paddle_player oder dem paddle_comp passiert das Gleiche. Weil 
+beide (paddle_player und paddle_comp) im obj_paddle_parent verknüpft sind.
+Somit muss der Code (hier "hspeed = -hspeed" im obj_ball) nur einmal geschrieben werden und nicht
+zweimal ( 1x im paddle_player und 1x im paddle_comp).
